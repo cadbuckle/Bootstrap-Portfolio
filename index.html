@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <title>Duncan's Bootstrap Based Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+
+</head>
+
+<body>
+    <!--
+        ******************************
+        Nav item that has links to About Me, Contact Me and a dropdown for "Work"
+        ******************************
+    -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary customNav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Duncan Buckle</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#aboutme">About Me</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">My Work</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#work">Refactored Website</a></li>
+                            <li><a class="dropdown-item" href="#work">First Website</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">T.B.A.</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--
+        ******************************
+        JUMBOTRON  to replace subtitle
+        ******************************
+    -->
+    <div class="p-5 mb-4 bg-body-tertiary rounded-3 rockBackground">
+        <div class="container-fluid py-5 jumboCopy">
+            <h1 class="display-5 fw-bold">Front-End Web Developer & Business Analyst</h1>
+        </div>
+    </div>
+
+    <!-- 
+        ******************************
+        Containers, Columns, Rows and Cards to replace the following content sections (About Me, Work, Contct)
+        ******************************
+    -->
+    <div class="container-fluid container-class">
+        <!-- About Me -->
+        <div class="row valueProp">
+            <div class="col-3" id="aboutme">
+                <h2>About Me</h2>
+            </div>
+            <div class="sideAccent "></div>
+            <div class="col-8">
+                <img src="./images/DuncanAtSilverstone.jpg" alt="Duncan at Silverstone">
+                <p>I'm Duncan and a northerner by birth.</p>
+                <p>I've always worked in IT, starting on the EPOS helpdesk for an electrical retailer. I jumped into
+                    development and started coding in dBaseII (for a helpdesk call logging system), then Today 4GL for a
+                    service department system, and then Progress 4GL for a POS system</p>
+                <p>My career took a strange turn when I became an implementation consultant for a software company. This
+                    involved not only coding the product, but performing requirements gathering, business process
+                    analysis, implementation and training. From this point forwards I was then a business analyst.</p>
+                <p>Following some retraining, I'm now a front-end web developer and technical business analyst with a
+                    life-long curiosity as to why things work and why they don’t. Solutions to problems aren’t always
+                    obvious, and I always try to think outside of the box. Strengths in teamwork, investigating issues,
+                    requirements gathering and stakeholder management. Accessibility is a must.</p>
+            </div>
+        </div>
+        <!-- About me row end-->
+
+        <!-- Work -->
+        <div class="row valueProp">
+            <div class="col-3" id="work">
+                <h2>My Work</h2>
+            </div>
+            <div class="sideAccent "></div>
+            <div class="col-8">
+                <div class="container-fluid container-class">
+                    <!-- First App/Site - full width of column -->
+                    <div class="card" style="width: 100%;">
+                        <a href="https://cadbuckle.github.io/horiseon-module-01/" target="_blank"><img
+                                src="./images/horiseon-home.png" class="card-img-top" alt="Horiseon website"></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Refactored Website for HTML and CSS</h5>
+                            <a href="https://cadbuckle.github.io/horiseon-module-01/" target="_blank"
+                                class="btn btn-primary">Visit Site</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Main app end -->
+                <!-- app 2 -->
+                <a href="https://cadbuckle.github.io/prework-study-guide/" target="_blank" id="app2"
+                    class="workGridArea">
+                    <div>
+                        <div class="heading">First web page</div>
+                    </div>
+                </a>
+                <!-- app 2 end -->
+                <!-- app 3 -->
+                <a href="" id="app3" class="workGridArea">
+                    <div>
+                        <div class="heading">Coming soon ...</div>
+                    </div>
+                </a>
+                <!-- app 3 end -->
+                <!-- app 4 -->
+                <a href="" id="app4" class="workGridArea">
+                    <div>
+                        <div class="heading">Coming soon ...</div>
+                    </div>
+                </a>
+                <!-- app 4 end -->
+                <!-- app 5 -->
+                <a href="" id="app5" class="workGridArea">
+                    <div>
+                        <div class="heading">Coming soon ...</div>
+                    </div>
+                </a>
+                <!-- app 5 end -->
+
+            </div>
+        </div>
+        <!-- Work row end-->
+
+        <!-- Contact -->
+        <div class="row valueProp">
+            <div class="col-3" id="contact">
+                <h2>Contact Me</h2>
+            </div>
+            <div class="sideAccent "></div>
+            <div class="col-8">
+                <div class="contactdetails">
+                    <div class="contactcard">
+                        Email: <a href="mailto:duncanbuckle@gmail.com">duncanbuckle@gmail.com</a></div>
+                    <div class="contactcard">Phone: <a href="tel:+447895765925">duncan</a></div>
+                    <div class="contactcard">LinkedIn: <a href="https://www.linkedin.com/in/duncanbuckle/"
+                            target="_blank">Duncan
+                            Buckle</a></div>
+                </div>
+            </div>
+            <!-- Contact row end -->
+
+        </div>
+
+        <!-- Required js -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
