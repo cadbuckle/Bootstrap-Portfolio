@@ -54,10 +54,10 @@
 
     <!--
         ******************************
-        JUMBOTRON  to replace subtitle
+        JUMBOTRON  to display header image
         ******************************
     -->
-    <div class="p-5 mb-4 bg-body-tertiary rounded-3 rockBackground">
+    <div class="p-5 mb-4 bg-body-tertiary rounded-3 jumboBackground">
         <div class="container-fluid py-5 jumboCopy">
             <h1 class="display-5 fw-bold">Front-End Web Developer & Business Analyst</h1>
         </div>
@@ -65,7 +65,7 @@
 
     <!-- 
         ******************************
-        Containers, Columns, Rows and Cards to replace the following content sections (About Me, Work, Contct)
+        Containers, Columns, Rows and Cards to display the following content sections (About Me, Work, Contct)
         ******************************
     -->
     <div class="container-fluid container-class">
@@ -98,10 +98,11 @@
                 <h2>My Work</h2>
             </div>
             <div class="sideAccent "></div>
+            <!-- Right hand side of work area to display projects -->
             <div class="col-8">
                 <div class="container-fluid container-class">
                     <!-- First App/Site - full width of column -->
-                    <div class="card" style="width: 100%;">
+                    <div class="card col-12" >
                         <a href="https://cadbuckle.github.io/horiseon-module-01/" target="_blank"><img
                                 src="./images/horiseon-home.png" class="card-img-top" alt="Horiseon website"></a>
                         <div class="card-body">
@@ -110,39 +111,41 @@
                                 class="btn btn-primary">Visit Site</a>
                         </div>
                     </div>
+                    <!-- Main app end -->
+                    <!-- app 2 - half of column width -->
+                    <div class="card col-6">
+                        <a href="https://cadbuckle.github.io/prework-study-guide/" target="_blank"><img src="./images/first-web-page.png" class="card-img-top" alt="Horiseon website"></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Pre-bootcamp work</h5>
+                            <a href="https://cadbuckle.github.io/prework-study-guide/" target="_blank"
+                        class="btn btn-primary">Visit Site</a>
+                        </div>
+                    </div>
+                    <!-- app 2 end -->
+                    <!-- app 3 - half of column width -->
+                    <div class="card col-6 app3">
+                        <div class="card-body">
+                            <h5 class="card-title">Coming soon ...</h5>
+                        </div>
+                    </div>
+                    <!-- app 3 end -->
+                    <!-- app 4 - half of column width -->
+                    <div class="card col-6 app4">
+                        <div class="card-body">
+                            <h5 class="card-title">Coming soon ...</h5>
+                        </div>
+                    </div>
+                    <!-- app 4 end -->
+                    <!-- app 5 - half of column width -->
+                    <div class="card col-6 app5">
+                        <div class="card-body">
+                            <h5 class="card-title">Coming soon ...</h5>
+                        </div>
+                    </div>
+                    <!-- app 5 end -->
                 </div>
-                <!-- Main app end -->
-                <!-- app 2 -->
-                <a href="https://cadbuckle.github.io/prework-study-guide/" target="_blank" id="app2"
-                    class="workGridArea">
-                    <div>
-                        <div class="heading">First web page</div>
-                    </div>
-                </a>
-                <!-- app 2 end -->
-                <!-- app 3 -->
-                <a href="" id="app3" class="workGridArea">
-                    <div>
-                        <div class="heading">Coming soon ...</div>
-                    </div>
-                </a>
-                <!-- app 3 end -->
-                <!-- app 4 -->
-                <a href="" id="app4" class="workGridArea">
-                    <div>
-                        <div class="heading">Coming soon ...</div>
-                    </div>
-                </a>
-                <!-- app 4 end -->
-                <!-- app 5 -->
-                <a href="" id="app5" class="workGridArea">
-                    <div>
-                        <div class="heading">Coming soon ...</div>
-                    </div>
-                </a>
-                <!-- app 5 end -->
-
             </div>
+            <!-- end of work right hand column-->
         </div>
         <!-- Work row end-->
 
