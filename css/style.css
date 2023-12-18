@@ -8,32 +8,17 @@
     font-family: 'Libre Baskerville', serif;
 }
 
+/* padding for row */
 .valueProp {
     margin-top: 15px;
     margin-bottom: 15px;
 }
 
-.sideAccent {
-    background: var(--papaya);
-    width: 1px;
-    padding: 1px;
-}
-
-.mainApp-img {
-    height: 75%;
-}
-
-.col-6 {
-    margin-top: 4px;
-}
-
-.col-8 img {
+/* styling "about me" image */
+.aboutMeImg {
     float: left;
     margin: 0;
     margin-right: 1%;
-}
-
-img {
     display: flex;
     width: 20%;
     height: auto;
@@ -59,9 +44,8 @@ body {
     width: 100%;
     background-color: lightgray;
     background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/triangles_pattern.png");
-    background-size:  contain;
+    background-size: contain;
     background-repeat: repeat;
-
 }
 
 /* format/style work items */
@@ -69,17 +53,9 @@ body {
     background-image: url(../images/coming-soon.png);
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 75% auto;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.contactdetails {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
 }
 
 /* Navigation */
@@ -112,12 +88,15 @@ body {
     margin: 0px 15px;
 }
 
-.navbar-toggler-icon{
-    background-color: var(--papaya);
-}
 .nav-link {
     font-family: 'Libre Baskerville', serif;
     font-weight: 600;
+}
+
+
+/* overrides core bootstrap styling */
+.navbar-toggler-icon {
+    background-color: var(--papaya);
 }
 
 /* Navigation dropdown menu */
@@ -134,7 +113,8 @@ body {
     text-decoration: none;
     background: black;
 }
-.dropdown-divider{
+
+.dropdown-divider {
     background-color: var(--papaya);
 }
 
@@ -143,7 +123,8 @@ body {
     background-image: url(../images/horsedogcar.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: calc(75vh - 25px);
+    overflow: hidden;
+    height: calc(75vh - 75px);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -156,11 +137,4 @@ body {
     max-width: 700px;
     color: var(--papaya);
     text-align: center;
-}
-
-/* card styling */
-.card {
-    /*    margin: 2px; */
-    padding: 0;
-
 }

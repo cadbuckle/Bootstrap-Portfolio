@@ -27,7 +27,7 @@ N/A
 ## Usage 
 
 Links are available on the page to navigate to various sections.
-Within each section there may be further links to, for example, navigate away to the selected application or start an email to Duncan.
+Within each section there may be further links to, for example, navigate to the selected application or start an email to Duncan.
 
 ![screenshot of web page](./images/bootstrap-portfolio-cadbuckle_screenshot.png)
 
@@ -38,6 +38,7 @@ MIT License as per repository.
 ## Features
 
 Bootstrap including navbar, "jumbotron" and containers/rows/columns/cards
+Google Font
 
 
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
