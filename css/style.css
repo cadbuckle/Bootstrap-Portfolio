@@ -19,6 +19,13 @@
     padding: 1px;
 }
 
+.mainApp-img{
+    height: 75%;
+}
+.col-6{
+    margin-top: 4px;
+}
+
 .col-8 img {
     float: left;
     margin: 0;
@@ -49,13 +56,18 @@ p {
 
 body {
     width: 100%;
+    background-color: lightgray;
 }
 
 /* format/style work items */
-.app3,
-.app4,
-.app5 {
+.comingsoon {
     background-image: url(../images/coming-soon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 75% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .contactdetails {
@@ -128,4 +140,11 @@ body {
     max-width: 700px;
     color: var(--papaya);
     text-align: center;
+}
+
+/* card styling */
+.card{
+/*    margin: 2px; */
+    padding: 0;
+    
 }
