@@ -18,7 +18,7 @@ If your README is very long, add a table of contents to make it easy for users t
 ## Links
 
 - [Repo](https://github.com/cadbuckle/Bootstrap-Portfolio)
-- [Live](https://cadbuckle.github.io/....../)
+- [Live](https://cadbuckle.github.io/Bootstrap-Portfolio/)
 
 ## Installation
 
@@ -29,7 +29,7 @@ N/A
 Links are available on the page to navigate to various sections.
 Within each section there may be further links to, for example, navigate to the selected application or start an email to Duncan.
 
-![screenshot of web page](./images/bootstrap-portfolio-cadbuckle_screenshot.png)
+![screenshot of web page](./images/bootstrap-portfolio_screenshot.png)
 
 ## License
 

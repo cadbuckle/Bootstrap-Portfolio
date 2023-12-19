@@ -58,6 +58,16 @@ body {
     justify-content: center;
 }
 
+/* format skills */
+.skilltext{
+    text-align: center;
+    font-size: medium;
+}
+
+/* format contact info */
+.contact{
+    background-color: transparent;
+}
 /* Navigation */
 .customNav {
     position: fixed;
@@ -124,7 +134,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
-    height: calc(75vh - 75px);
+    height: 75vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -138,3 +148,9 @@ body {
     color: var(--papaya);
     text-align: center;
 }
+
+/* footer styling */
+footer {
+    text-align: center;
+    font-size: 30px;
+  }
