@@ -132,9 +132,10 @@ body {
 .jumboBackground {
     background-image: url(../images/horsedogcar.png);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     overflow: hidden;
-    height: 75vh;
+    height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
