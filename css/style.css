@@ -40,6 +40,10 @@ p {
     font-size: 18px;
 }
 
+.img-fluid {
+    height: 20rem;
+}
+
 body {
     width: 100%;
     background-color: lightgray;
